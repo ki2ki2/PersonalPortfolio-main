@@ -1,10 +1,10 @@
 import React from "react";
 import "./project.css";
 import IMG1 from "../../assests/Portfolio.png";
-import NoteIMG from "../../assests/NoteApp.png";
+// import NoteIMG from "../../assests/NoteApp.png";
 import SocialIMG from "../../assests/Hostel_Booking.png";
-import FilmIMG from "../../assests/FilmFliker.png";
-import IMG2 from "../../assests/project2.png";
+// import FilmIMG from "../../assests/FilmFliker.png";
+// import IMG2 from "../../assests/project2.png";
 const Portfolio = () => {
   return (
     <section id="project">
@@ -75,11 +75,11 @@ const Portfolio = () => {
           </div>
           <h3>My Portfolio</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/PersonalPortfolio" className="btn" target="_blank">
+            <a href="https://github.com/ki2ki2/PersonalPortfolio-main" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="https://manishk4514.vercel.app/"
+              href="https://ki2ki2.github.io/PersonalPortfolio-main/"
               className="btn btn-primary"
               target="_blank"
             >

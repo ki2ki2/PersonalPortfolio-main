@@ -1,5 +1,5 @@
 import React from "react";
-import Manish from "../../assests/Manish_Kumar.pdf";
+import Manish from "../../assests/Kriti_Resume.pdf";
 const CTA = () => {
   return (
     <div className="cta">
