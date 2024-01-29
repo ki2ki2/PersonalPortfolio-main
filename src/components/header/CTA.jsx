@@ -1,9 +1,9 @@
 import React from "react";
-import Manish from "../../assests/Kriti_Resume.pdf";
+import Kriti from "../../assests/Kriti_Resume.pdf";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={Manish} download className="btn">
+      <a href={Kriti} download className="btn">
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">

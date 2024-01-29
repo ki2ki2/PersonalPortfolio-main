@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import IMG1 from "../../assests/Portfolio.png";
 // import NoteIMG from "../../assests/NoteApp.png";
-import SocialIMG from "../../assests/Hostel_Booking.png";
+import HostelImg from "../../assests/Hostel_Booking.png";
 // import FilmIMG from "../../assests/FilmFliker.png";
 // import IMG2 from "../../assests/project2.png";
 const Portfolio = () => {
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={SocialIMG} alt="" />
+            <img src={HostelImg} alt="" />
           </div>
           <h3>HOSTELENGINE.COM - Hostel Booking Website</h3>
           <div className="portfolio__item-cta">
