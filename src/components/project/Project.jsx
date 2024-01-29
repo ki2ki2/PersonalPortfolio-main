@@ -79,10 +79,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://ki2ki2.github.io/PersonalPortfolio-main/"
-              className="btn btn-primary"
-              target="_blank"
-            >
+              href="https://ki2-PersonalPortfolio.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
