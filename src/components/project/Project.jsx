@@ -79,7 +79,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/ki2ki2/PersonalPortfolio-main" className="btn btn-primary" target="_blank">
+              href="https://personal-portfolio-main-phi.vercel.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
