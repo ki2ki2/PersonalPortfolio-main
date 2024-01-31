@@ -41,7 +41,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/ki2ki2/to_do_list"
+              href="https://to-do-list-green-seven.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
