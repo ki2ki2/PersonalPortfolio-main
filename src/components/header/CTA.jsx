@@ -1,5 +1,5 @@
 import React from "react";
-import Kriti from "../../assests/KritiKumari.pdf";
+import Kriti from "../../assests/KritiKumari(Resume).pdf";
 const CTA = () => {
   return (
     <div className="cta">
