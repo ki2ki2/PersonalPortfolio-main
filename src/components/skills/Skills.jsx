@@ -92,14 +92,14 @@ const Skills = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>GitHub</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
             {/* <article className="experience__details">
