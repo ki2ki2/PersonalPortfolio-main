@@ -1,10 +1,11 @@
 import React from "react";
 import "./project.css";
-import IMG1 from "../../assests/Portfolio.png";
-// import NoteIMG from "../../assests/NoteApp.png";
 import HostelImg from "../../assests/Hostel_Booking.png";
+import Yoga from "../../assests/YogaPose.png";
+import Snake from "../../assests/SnakeGame.jpg";
+import Rock from "../../assests/RockPaper.png";
+import TicTac from "../../assests/TicTacToe.png"
 import todolist from "../../assests/to-do-list.png";
-// import IMG2 from "../../assests/project2.png";
 const Portfolio = () => {
   return (
     <section id="project">
@@ -33,6 +34,70 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={Yoga} alt="" />
+          </div>
+          <h3>Yoga-Pose</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ki2ki2/Yogpose-main" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://ki2ki2.github.io/Yogpose-main/" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Snake} alt="" />
+          </div>
+          <h3>Snake-Game</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ki2ki2/SnakeGame" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://ki2ki2.github.io/SnakeGame/" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Rock} alt="" />
+          </div>
+          <h3>Rock-Paper-Scissors</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ki2ki2/Rock-Paper-Scissors-Game" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://ki2ki2.github.io/Rock-Paper-Scissors-Game/" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={TicTac} alt="" />
+          </div>
+          <h3>Tic-Tac-Toe</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ki2ki2/Tic-Tac-Toe-Game" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://ki2ki2.github.io/Tic-Tac-Toe-Game/" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={todolist} alt="" />
           </div>
           <h3>TO-DO-LIST</h3>
@@ -50,21 +115,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>My Portfolio</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ki2ki2/PersonalPortfolio-main" className="btn" target="_blank">
-              Github
-            </a>
-            <a
-              href="https://personal-portfolio-main-phi.vercel.app/" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
+        
       </div>
     </section>
   );

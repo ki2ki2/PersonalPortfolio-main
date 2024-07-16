@@ -9,72 +9,27 @@ const Skills = () => {
       <h2>My Skills</h2>
       <div className="container experience__container">
         <div className="skill__frontend">
-          <h3>Skills</h3>
+          <h3>Languages</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>C++</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Java</h4>
+                {/* <small className="text-light">Beginner</small> */}
               </div>
             </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Data Structures</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Algorithms</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+            
           </div>
         </div>
 
-        <div className="skill__frontend">
-          <h3>Core Subjects</h3>
-          <div className="experience__content">
-          <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>OPPs</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>DBMS</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Operating System</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Computer Networing</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
-          </div>
-        </div>
+        
 
         <div className="skill__frontend">
           <h3>Frontend Development</h3>
@@ -83,28 +38,28 @@ const Skills = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React Js</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
           </div>
@@ -117,30 +72,16 @@ const Skills = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermidiate</small>
+                {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
-            {/* <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ExpressJs</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article> */}
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
-            {/* <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Rest Api</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>  */}
           </div>
         </div>
 
@@ -177,6 +118,55 @@ const Skills = () => {
             </article> */}
           </div>
         </div>
+
+        <div className="skill__frontend">
+          <h3>Core Subjects</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Data Structures</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Algorithms</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article> 
+          <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>OPPs</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>DBMS</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MySQL</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Machine Learning</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+          </div>
+        </div>
+
       </div>
     </section>
   );

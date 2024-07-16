@@ -34,17 +34,16 @@ const About = () => {
             <article className="about__card">
               <BsFillFileEarmarkCodeFill className="about__icon" />
               <h5>Projects</h5>
-              <small>3 Completed</small>
+              <small>6 Completed</small>
             </article>
           </div>
 
           <p id="para">
-            I am looking for an Entry-level position in the field of Software
-            Development. Currently pursuing bachelor's degree from Lakshmi Narain College of Technology Excellence, Bhopal. And I have a good knowledge of C++,
-            Data Structures and Algorithms, OPPs, Operating System, Networking, HTML, CSS, JavaScript, React.js, Node.js and Machine Learning.
-            Looking for an Internship opportunity or a Full-time opportunity as
-            a Software Developer to follow my passion and that is Solving
-            Problems.
+            I am an aspiring Frontend Developer professional with a recently completed bachelor's degree from Lakshmi Narain College of Technology Excellence, Bhopal (2020-2024).
+            I possess strong knowledge and practical experience in C++, Java, Data Structures and Algorithms, Object-Oriented Programming, HTML, CSS, JavaScript, React.js, Operating Systems, Networking, and Machine Learning.
+            <br />
+            I am actively seeking an entry-level position or internship in Frontend Development where I can leverage my skills and follow my passion for technology. 
+            I am eager to contribute to a dynamic team and grow within the field.
           </p>
 
           <a href="#contact" className="btn btn-primary">
