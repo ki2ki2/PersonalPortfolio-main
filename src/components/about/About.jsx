@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p id="para">
-            I am an aspiring Frontend Developer professional with a recently completed bachelor's degree from Lakshmi Narain College of Technology Excellence, Bhopal (2020-2024).
+            I am an aspiring Frontend Developer professional. I recently completed bachelor's degree from Lakshmi Narain College of Technology Excellence, Bhopal (2020-2024).
             I possess strong knowledge and practical experience in C++, Java, Data Structures and Algorithms, Object-Oriented Programming, HTML, CSS, JavaScript, React.js, Operating Systems, Networking, and Machine Learning.
             <br />
             I am actively seeking an entry-level position or internship in Frontend Development where I can leverage my skills and follow my passion for technology. 
