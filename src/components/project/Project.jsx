@@ -54,11 +54,11 @@ const Portfolio = () => {
           </div>
           <h3>Snake-Game</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ki2ki2/SnakeGame" className="btn" target="_blank">
+            <a href="https://github.com/ki2ki2/snake-game-js-main" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="https://ki2ki2.github.io/SnakeGame/" className="btn btn-primary" target="_blank">
+              href="https://ki2ki2.github.io/snake-game-js-main/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
