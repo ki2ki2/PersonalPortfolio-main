@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import HostelImg from "../../assests/Hostel_Booking.png";
 import Yoga from "../../assests/YogaPose.png";
-import Snake from "../../assests/SnakeGame.jpg";
+import Snake from "../../assests/SnakeGame.png";
 import Rock from "../../assests/RockPaper.png";
 import TicTac from "../../assests/TicTacToe.png"
 import todolist from "../../assests/to-do-list.png";
