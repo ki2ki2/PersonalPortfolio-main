@@ -30,6 +30,78 @@ const Skills = () => {
         </div>
 
         
+        <div className="skill__frontend">
+          <h3>Tools</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>GitHub</h4>
+                {/* <small className="text-light">Intermidiate</small> */}
+              </div>
+            </article>
+            {/* <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Netlify</h4>
+                <small className="text-light">Advance</small>
+              </div>
+            </article> */}
+          </div>
+        </div>
+        
+
+        <div className="skill__frontend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>NodeJs</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>ExpressJs</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="skill__frontend">
+          <h3>DataBase Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MySQL</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        
 
         <div className="skill__frontend">
           <h3>Frontend Development</h3>
@@ -62,60 +134,6 @@ const Skills = () => {
                 {/* <small className="text-light">Intermidiate</small> */}
               </div>
             </article>
-          </div>
-        </div>
-
-        <div className="skill__frontend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                {/* <small className="text-light">Intermidiate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                {/* <small className="text-light">Intermediate</small> */}
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <div className="skill__frontend">
-          <h3>Tools</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Git</h4>
-                {/* <small className="text-light">Intermidiate</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>GitHub</h4>
-                {/* <small className="text-light">Intermidiate</small> */}
-              </div>
-            </article>
-            {/* <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Postman</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Netlify</h4>
-                <small className="text-light">Advance</small>
-              </div>
-            </article> */}
           </div>
         </div>
 

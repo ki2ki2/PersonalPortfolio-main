@@ -6,6 +6,7 @@ import Snake from "../../assests/SnakeGame.png";
 import Rock from "../../assests/RockPaper.png";
 import TicTac from "../../assests/TicTacToe.png"
 import todolist from "../../assests/to-do-list.png";
+import shopnestImg from "../../assests/ShopNest.png";
 const Portfolio = () => {
   return (
     <section id="project">
@@ -13,6 +14,25 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={shopnestImg} alt="" />
+          </div>
+          <h3>ShopNest - E-Commerce Website</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ki2ki2/E-Commerce" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://e-commerce-front-0j6w.onrender.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={HostelImg} alt="" />
